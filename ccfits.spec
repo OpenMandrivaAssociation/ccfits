@@ -24,6 +24,9 @@ with namespaces, exception handling, and member template functions.
 Summary:	A C++ interface for cfitsio
 Group:		System/Libraries
 Provides:	ccfits = %{version}-%{release}
+%description -n	%libname
+CCfits is an object oriented interface to the cfitsio library.
+
 
 %package -n	%develname
 Summary:	Headers for developing programs that will use %{name}
