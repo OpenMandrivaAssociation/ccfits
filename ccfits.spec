@@ -9,7 +9,7 @@ Summary:	A C++ interface for cfitsio
 
 Group:		System/Libraries
 License:	BSD
-URL:		http://heasarc.gsfc.nasa.gov/docs/software/fitsio/ccfits
+URL:		https://heasarc.gsfc.nasa.gov/docs/software/fitsio/ccfits
 Source0:	http://heasarc.gsfc.nasa.gov/docs/software/fitsio/ccfits/CCfits-%{version}.tar.gz
 BuildRequires:	cfitsio-devel = 3.290
 Patch0:		CCfits-1.6-removerpath.patch
