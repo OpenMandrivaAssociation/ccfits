@@ -11,6 +11,11 @@ Group:		System/Libraries
 License:	BSD
 URL:		https://heasarc.gsfc.nasa.gov/docs/software/fitsio/ccfits
 Source0:	http://heasarc.gsfc.nasa.gov/docs/software/fitsio/ccfits/CCfits-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	cfitsio-devel = 3.290
 Patch0:		CCfits-1.6-removerpath.patch
 
